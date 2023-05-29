@@ -1,0 +1,32 @@
+.selector {
+    /* Box model properties */
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    
+    /* Positioning and layout properties */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Typography properties */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    
+    /* Visual properties */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    
+    /* Animation and transition properties */
+    transition: all 0.3s ease-in-out;
+    
+    /* Pseudo-classes and pseudo-elements */
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+  
