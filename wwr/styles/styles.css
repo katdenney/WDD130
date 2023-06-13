@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;900&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -32,7 +33,7 @@ main section img {
 }
 body {
     background-color: #fcfbfb; 
-    font-family: Helvetica, Verdana, sans-serif;
+    font-family: Comme, Helvetica, sans-serif ;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -42,8 +43,11 @@ h2 {
 }
 header {
     background-color:#396E94;
-    font-family: Helvetica, Verdana, sans-serif;
+    font-family: "Source Sans Pro", Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
+
 nav a:hover {
     background-color: #33200A;
     color: #d9c2a3;
