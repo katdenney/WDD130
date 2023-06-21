@@ -190,37 +190,40 @@ footer .social img {
     grid-column: 8/10;
     grid-row: 2/3; 
 }
+
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows:minmax(90px,auto);
+    grid-template-columns: 1fr 1fr;
     margin-top: 100px; 
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-height:1600px;
-}
-#one{
-    margin-top: 100px;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 #rafting-img1{
-    grid-column: 2/3;
-    grid-row:2/3;
-    justify-self: end;
+    grid-column: 1/2;
+    grid-row:1/2;
+    justify-content: center;
+    align-content: center;
 }
 #rafting-img2{
-    grid-column: 2/3;
-    grid-row:3/4;
-}
-#rates-header{
-    font-size: 1.4em;
-    grid-column: 3/5;
-    grid-row:1/2;
-    justify-items: start;
-    background-color: #B4C2E4;
-}
-#rates-text{
-    grid-column: 3/5;
+    grid-column: 1/2;
     grid-row:2/3;
+    margin-bottom: 100px;
+}
+#one{
+    font-size: 1.4em;
+    font-family: Verdana, sans-serif;
+    grid-column: 2/3;
+    grid-row:1/2;
+    justify-self: center;
+    align-self: top;
+}
+#two{
+    font-family: Verdana, sans-serif;
+    grid-column: 2/3;
+    grid-row:1/3;
     align-self: center;
+    margin-bottom: 100px;
     background-color: #B4C2E4;
 }
 #footer-2{
@@ -230,6 +233,7 @@ footer .social img {
     justify-content: space-around;
     align-items: center;
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
