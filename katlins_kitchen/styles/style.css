@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center; 
+}
+header {
+    background-color:#1C7B47 ;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    text-align: center;
+    z-index: -1;
+}
+.logo {
+    padding: 1em;
+}
+nav a:hover {
+    background-color: #125431;
+    color: #E6E6E6;
+}
+#hero-msg h1, #hero-msg h4 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: #E6E6E6;
+}
+.grid-contaner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+#hero-msg h1{
+    font-size: 4em;
+}
+#hero-msg h4 {
+    font-size: 2em;
+}
+#hero {
+    margin-top: -50px; 
+}
+#hero-img {
+    width:100%;
+}
+#hero-box {
+    margin-top: 30px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.main-text {
+    text-align: center;
+    grid-column: 1/5;
+    grid-row:2/3;
+}
+#first-image {
+    box-sizing: border-box;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+#footer{
+    padding: 25px 50px;
+    background-color:#9BE8BE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
