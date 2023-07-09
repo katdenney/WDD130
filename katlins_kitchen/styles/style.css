@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+/*katlins kitchen css*/
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
-    text-align: center; 
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    color: #9BE8BE;
+    padding: 25px 50px;
+    margin-top: 50px;
+    background-color:#125431;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px #70eba9; 
 }
 header {
     background-color:#1C7B47 ;
@@ -25,6 +35,7 @@ nav a:hover {
     font-family: Roboto, sans-serif;
     text-align: center;
     color: #E6E6E6;
+    text-shadow: 4px 2px#072314;
 }
 .grid-contaner{
     display: grid;
@@ -32,10 +43,10 @@ nav a:hover {
     grid-template-rows: 1fr;
 }
 #hero-msg h1{
-    font-size: 4em;
+    font-size: 6em;
 }
 #hero-msg h4 {
-    font-size: 2em;
+    font-size: 4em;
 }
 #hero {
     margin-top: -50px; 
@@ -60,20 +71,43 @@ nav a:hover {
     grid-template-rows: 1fr 1fr 1fr;
 }
 .main-text {
+    font-family:'Montserrat', sans-serif;
+    color: #E6E6E6;
+    font-size: x-large;
+    align-self: center;
     text-align: center;
-    grid-column: 1/5;
+    grid-column: 2/4;
     grid-row:2/3;
+    background-color:#125431;
 }
 #first-image {
     box-sizing: border-box;
     grid-column: 2/4;
     grid-row: 3/4;
+    justify-self: center;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 #footer{
+    max-width: 1600px;
+    margin: 0 auto;
     padding: 25px 50px;
-    background-color:#9BE8BE;
+    background-color: #9BE8BE;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+div.social{
+    background-color:white;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+footer p{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 1.5em;
+    color:#125431;
+}
+footer p:hover {
+    background-color: #125431;
+    color: #E6E6E6;
 }
